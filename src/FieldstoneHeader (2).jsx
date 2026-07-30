@@ -255,18 +255,18 @@ function Hero() {
 const ABOUT_ITEMS = [
   {
     icon: "◆",
-    title: "Quality Craftsmanship",
-    desc: "Vel purus etiam sollicitudin ac amet sed maecenas. Condimentum nascetur cras id scelerisque. Penatibus amet elit est.",
+    title: "جودة الحرفية",
+    desc: "نقدم أعمال بناء عالية الجودة مع اهتمام بالتفاصيل والمواد الممتازة لضمان متانة وجمال المنازل.",
   },
   {
     icon: "◇",
-    title: "Customization Options",
-    desc: "Vel purus etiam sollicitudin ac amet sed maecenas. Condimentum nascetur cras id scelerisque. Penatibus amet elit est.",
+    title: "خيارات التخصيص",
+    desc: "نوفر حلولاً قابلة للتخصيص لتلبية احتياجات كل عميل من حيث التصميم والمساحة والميزات الخاصة.",
   },
   {
     icon: "◆",
-    title: "Timely Completion",
-    desc: "Vel purus etiam sollicitudin ac amet sed maecenas. Condimentum nascetur cras id scelerisque. Penatibus amet elit est.",
+    title: "الإنجاز في الوقت المحدد",
+    desc: "نلتزم بالجداول الزمنية للمشاريع ونضمن إتمام الأعمال بكفاءة ومهنية وفقاً للمعايير المتفق عليها.",
   },
 ];
 
@@ -372,23 +372,23 @@ function Process() {
 const SERVICE_ITEMS = [
   {
     icon: "◆",
-    name: "Custom Home Design",
-    desc: "Tailored architectural and interior design services to match your lifestyle and site conditions.",
+    name: "تصميم المنازل المخصصة",
+    desc: "خدمات تصميم معمارية وداخلية مخصصة لتتناسب مع نمط حياتك وظروف موقعك.",
   },
   {
     icon: "◇",
-    name: "Home Construction",
-    desc: "Full-service construction from site prep and foundation through finishing and handover.",
+    name: "بناء المنازل",
+    desc: "خدمة متكاملة للبناء تبدأ من تجهيز الموقع والأساس وحتى التشطيب والتسليم.",
   },
   {
     icon: "◈",
-    name: "Renovations & Additions",
-    desc: "Remodels and extensions that improve functionality and increase property value.",
+    name: "التجديدات والإضافات",
+    desc: "إعادة تطوير وامتدادات تحسن الوظائف وتزيد من قيمة العقار.",
   },
   {
     icon: "◇",
-    name: "Kitchen & Bath",
-    desc: "Modern, efficient kitchen and bathroom design and installation services.",
+    name: "المطابخ والحمامات",
+    desc: "تصميم وتركيب مطابخ وحمامات حديثة وفعالة.",
   },
 ];
 
@@ -403,12 +403,11 @@ function Services() {
     >
       <div className="fs-section__inner">
         <div className="fs-section__head">
-          <div className="fs-section__eyebrow">Our Services</div>
-          <h2 className="fs-section__title">What We Offer</h2>
+          <div className="fs-section__eyebrow">خدماتنا</div>
+          <h2 className="fs-section__title">ما نقدمه</h2>
           <p className="fs-section__lead">
-            From custom home design to full-scale renovations, we provide a
-            comprehensive range of construction and remodeling services to bring
-            your vision to life.
+            من تصميم المنازل المخصصة إلى التجديدات الشاملة، نقدم مجموعة كاملة من
+            خدمات البناء والتجديد لتحويل رؤيتك إلى واقع.
           </p>
         </div>
 
@@ -741,33 +740,33 @@ function Footer() {
           <div className="fs-logo">
             <div className="fs-logo__mark">◆</div>
             <div>
-              <div className="fs-logo__name">Kombong</div>
-              <div className="fs-logo__tag">Home Builder Contractor</div>
+              <div className="fs-logo__name">فيلدستون</div>
+              <div className="fs-logo__tag">مقاول بناء المنازل</div>
             </div>
           </div>
           <p className="fs-footer__desc">
-            In libero arcu ullamcorper convallis. Adipiscing scelerisque aliquet
-            vel a sodales id ultricies elit. Enim egestas vestibulum.
+            نحن في فيلدستون ملتزمون بتقديم أعلى مستويات الجودة في تصميم وبناء
+            المنازل المخصصة، مع التركيز على التفاصيل والحرفية.
           </p>
         </div>
 
         <div className="fs-footer__col">
-          <h4>Services</h4>
+          <h4>الخدمات</h4>
           <ul className="fs-footer__list">
-            <li>Custom Home Design</li>
-            <li>Home Construction</li>
-            <li>Renovations and Additions</li>
-            <li>Kitchen Remodeling</li>
+            <li>تصميم المنازل المخصصة</li>
+            <li>بناء المنازل</li>
+            <li>التجديدات والإضافات</li>
+            <li>إعادة تجهيز المطابخ</li>
           </ul>
         </div>
 
         <div className="fs-footer__col">
-          <h4>Contact Info</h4>
+          <h4>معلومات التواصل</h4>
           <p className="fs-footer__meta">
-            Address: 1234 Main St. Anytown, USA 12345
+            العنوان: 1234 الشارع الرئيسي، أي مدينة, الولايات المتحدة 12345
           </p>
           <p className="fs-footer__meta">
-            Phone: <a href="tel:+13330000000">+1 (333) 000-0000</a>
+            الهاتف: <a href="tel:+13330000000">+1 (333) 000-0000</a>
           </p>
           <p className="fs-footer__meta">
             <a href="mailto:hi@kombong.com">hi@kombong.com</a>
@@ -775,10 +774,10 @@ function Footer() {
         </div>
 
         <div className="fs-footer__col fs-footer__newsletter">
-          <h4>Newsletter</h4>
+          <h4>النشرة البريدية</h4>
           <p className="fs-footer__meta">
-            Subscribe to our newsletter to stay up-to-date with the latest news,
-            tips, and trends in the industry
+            اشترك في نشرتنا البريدية لتبقى على اطلاع بأحدث الأخبار, النصائح,
+            والاتجاهات في الصناعة
           </p>
           <form className="fs-newsletter" onSubmit={(e) => e.preventDefault()}>
             <input
@@ -793,8 +792,8 @@ function Footer() {
         </div>
       </div>
       <div className="fs-footer__bar">
-        <div>Copyright © 2024 Kombong</div>
-        <div>Designed by TokoTema</div>
+        <div>حقوق الطبع © 2024 Kombong</div>
+        <div>تم التصميم بواسطة TokoTema</div>
       </div>
     </footer>
   );
