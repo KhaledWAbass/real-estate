@@ -279,9 +279,9 @@ function Content() {
         <div
           className={`fs-content__intro ${revealed ? "fs-content__intro--in" : ""}`}
         >
-          <span className="fs-content__eyebrow">Why Choose Us</span>
+          <span className="fs-content__eyebrow">لماذ تختارنا </span>
           <h2 className="fs-content__heading">
-            Elevating Home Construction Standards
+            رفع معايير بناء المنازل
           </h2>
         </div>
 
